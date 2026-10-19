@@ -1,0 +1,2405 @@
+
+> fullstack2@0.0.0 test
+> karma start karma.conf.cjs --single-run
+
+Webpack bundling...
+asset [1m[32mcommons.js[39m[22m 9.54 MiB [1m[32m[emitted][39m[22m (name: commons) (id hint: commons)
+asset [1m[32mruntime.js[39m[22m 20.7 KiB [1m[32m[emitted][39m[22m (name: runtime)
+asset [1m[32mcontext.1798055000.js[39m[22m 429 bytes [1m[32m[emitted][39m[22m (name: context.1798055000)
+Entrypoint [1mcontext.1798055000[39m[22m 9.56 MiB = [1m[32mruntime.js[39m[22m 20.7 KiB [1m[32mcommons.js[39m[22m 9.54 MiB [1m[32mcontext.1798055000.js[39m[22m 429 bytes
+webpack 5.111.1 compiled [1m[32msuccessfully[39m[22m in 5474 ms
+[32m18 10 2026 23:11:01.160:INFO [karma-server]: [39mKarma v6.4.4 server started at http://localhost:9876/
+[32m18 10 2026 23:11:01.162:INFO [launcher]: [39mLaunching browsers ChromeHeadlessSinSandbox with concurrency unlimited
+[32m18 10 2026 23:11:01.168:INFO [launcher]: [39mStarting browser ChromeHeadless
+[32m18 10 2026 23:11:01.900:INFO [Chrome Headless 155.0.0.0 (Windows 10)]: [39mConnected on socket XravCHPWEuGVbdUvAAAA with id 48860417
+Chrome Headless 155.0.0.0 (Windows 10): Executed 0 of 136[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 1 of 136[32m SUCCESS[39m (0 secs / 0.018 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 2 of 136[32m SUCCESS[39m (0 secs / 0.02 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 3 of 136[32m SUCCESS[39m (0 secs / 0.021 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 4 of 136[32m SUCCESS[39m (0 secs / 0.023 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 5 of 136[32m SUCCESS[39m (0 secs / 0.026 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 6 of 136[32m SUCCESS[39m (0 secs / 0.029 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 7 of 136[32m SUCCESS[39m (0 secs / 0.032 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 8 of 136[32m SUCCESS[39m (0 secs / 0.037 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 9 of 136[32m SUCCESS[39m (0 secs / 0.041 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 10 of 136[32m SUCCESS[39m (0 secs / 0.084 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 11 of 136[32m SUCCESS[39m (0 secs / 0.136 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 12 of 136[32m SUCCESS[39m (0 secs / 0.153 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 13 of 136[32m SUCCESS[39m (0 secs / 0.161 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 14 of 136[32m SUCCESS[39m (0 secs / 0.168 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 15 of 136[32m SUCCESS[39m (0 secs / 0.173 secs)
+[1A[2K[31mChrome Headless 155.0.0.0 (Windows 10) Home (página) muestra la bienvenida y solo las 3 primeras consolas FAILED[39m
+	Expected 8 to be 3.
+	    at <Jasmine>
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at <Jasmine>
+Chrome Headless 155.0.0.0 (Windows 10): Executed 16 of 136[31m (1 FAILED)[39m (0 secs / 0.181 secs)
+Chrome Headless 155.0.0.0 (Windows 10) Home (página) muestra la bienvenida y solo las 3 primeras consolas FAILED
+	Expected 8 to be 3.
+	    at <Jasmine>
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at <Jasmine>
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 17 of 136[31m (1 FAILED)[39m (0 secs / 0.186 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 18 of 136[31m (1 FAILED)[39m (0 secs / 0.189 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 19 of 136[31m (1 FAILED)[39m (0 secs / 0.192 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 20 of 136[31m (1 FAILED)[39m (0 secs / 0.193 secs)
+[1A[2K[31mChrome Headless 155.0.0.0 (Windows 10) Navbar y Footer (organismos) el boton del carrito muestra el total de los productos guardados FAILED[39m
+	FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	    at <Jasmine>
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at <Jasmine>
+Chrome Headless 155.0.0.0 (Windows 10): Executed 21 of 136[31m (2 FAILED)[39m (0 secs / 0.197 secs)
+Chrome Headless 155.0.0.0 (Windows 10) Navbar y Footer (organismos) el boton del carrito muestra el total de los productos guardados FAILED
+	FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	    at <Jasmine>
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at <Jasmine>
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 22 of 136[31m (2 FAILED)[39m (0 secs / 0.2 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 23 of 136[31m (2 FAILED)[39m (0 secs / 0.203 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 24 of 136[31m (2 FAILED)[39m (0 secs / 0.21 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 25 of 136[31m (2 FAILED)[39m (0 secs / 0.228 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 26 of 136[31m (2 FAILED)[39m (0 secs / 0.237 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 27 of 136[31m (2 FAILED)[39m (0 secs / 0.246 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 28 of 136[31m (2 FAILED)[39m (0 secs / 0.248 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 29 of 136[31m (2 FAILED)[39m (0 secs / 0.248 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 30 of 136[31m (2 FAILED)[39m (0 secs / 0.249 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 31 of 136[31m (2 FAILED)[39m (0 secs / 0.252 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 32 of 136[31m (2 FAILED)[39m (0 secs / 0.253 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 33 of 136[31m (2 FAILED)[39m (0 secs / 0.255 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 34 of 136[31m (2 FAILED)[39m (0 secs / 0.256 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 35 of 136[31m (2 FAILED)[39m (0 secs / 0.257 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 36 of 136[31m (2 FAILED)[39m (0 secs / 0.259 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 37 of 136[31m (2 FAILED)[39m (0 secs / 0.261 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 38 of 136[31m (2 FAILED)[39m (0 secs / 0.262 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 39 of 136[31m (2 FAILED)[39m (0 secs / 0.264 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 40 of 136[31m (2 FAILED)[39m (0 secs / 0.265 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 41 of 136[31m (2 FAILED)[39m (0 secs / 0.265 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 42 of 136[31m (2 FAILED)[39m (0 secs / 0.266 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 43 of 136[31m (2 FAILED)[39m (0 secs / 0.267 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 44 of 136[31m (2 FAILED)[39m (0 secs / 0.268 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 45 of 136[31m (2 FAILED)[39m (0 secs / 0.269 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 46 of 136[31m (2 FAILED)[39m (0 secs / 0.27 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 47 of 136[31m (2 FAILED)[39m (0 secs / 0.271 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 48 of 136[31m (2 FAILED)[39m (0 secs / 0.272 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 49 of 136[31m (2 FAILED)[39m (0 secs / 0.272 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 50 of 136[31m (2 FAILED)[39m (0 secs / 0.308 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 51 of 136[31m (2 FAILED)[39m (0 secs / 0.317 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 52 of 136[31m (2 FAILED)[39m (0 secs / 0.336 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 53 of 136[31m (2 FAILED)[39m (0 secs / 0.354 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 54 of 136[31m (2 FAILED)[39m (0 secs / 0.355 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 55 of 136[31m (2 FAILED)[39m (0 secs / 0.355 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 56 of 136[31m (2 FAILED)[39m (0 secs / 0.356 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 57 of 136[31m (2 FAILED)[39m (0 secs / 0.357 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 58 of 136[31m (2 FAILED)[39m (0 secs / 0.357 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 59 of 136[31m (2 FAILED)[39m (0 secs / 0.357 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 60 of 136[31m (2 FAILED)[39m (0 secs / 0.358 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 61 of 136[31m (2 FAILED)[39m (0 secs / 0.358 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 62 of 136[31m (2 FAILED)[39m (0 secs / 0.359 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 63 of 136[31m (2 FAILED)[39m (0 secs / 0.359 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 64 of 136[31m (2 FAILED)[39m (0 secs / 0.359 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 65 of 136[31m (2 FAILED)[39m (0 secs / 0.359 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 66 of 136[31m (2 FAILED)[39m (0 secs / 0.359 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 67 of 136[31m (2 FAILED)[39m (0 secs / 0.362 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 68 of 136[31m (2 FAILED)[39m (0 secs / 0.365 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 69 of 136[31m (2 FAILED)[39m (0 secs / 0.367 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 70 of 136[31m (2 FAILED)[39m (0 secs / 0.372 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 71 of 136[31m (2 FAILED)[39m (0 secs / 0.376 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 72 of 136[31m (2 FAILED)[39m (0 secs / 0.382 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 73 of 136[31m (2 FAILED)[39m (0 secs / 0.386 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 74 of 136[31m (2 FAILED)[39m (0 secs / 0.391 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 75 of 136[31m (2 FAILED)[39m (0 secs / 0.395 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 76 of 136[31m (2 FAILED)[39m (0 secs / 0.397 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 77 of 136[31m (2 FAILED)[39m (0 secs / 0.399 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 78 of 136[31m (2 FAILED)[39m (0 secs / 0.401 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 79 of 136[31m (2 FAILED)[39m (0 secs / 0.403 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 80 of 136[31m (2 FAILED)[39m (0 secs / 0.404 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 81 of 136[31m (2 FAILED)[39m (0 secs / 0.405 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 82 of 136[31m (2 FAILED)[39m (0 secs / 0.405 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 83 of 136[31m (2 FAILED)[39m (0 secs / 0.406 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 84 of 136[31m (2 FAILED)[39m (0 secs / 0.408 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 85 of 136[31m (2 FAILED)[39m (0 secs / 0.41 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 86 of 136[31m (2 FAILED)[39m (0 secs / 0.412 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 87 of 136[31m (2 FAILED)[39m (0 secs / 0.413 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 88 of 136[31m (2 FAILED)[39m (0 secs / 0.414 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 89 of 136[31m (2 FAILED)[39m (0 secs / 0.423 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 90 of 136[31m (2 FAILED)[39m (0 secs / 0.464 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 91 of 136[31m (2 FAILED)[39m (0 secs / 0.489 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 92 of 136[31m (2 FAILED)[39m (0 secs / 0.494 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 93 of 136[31m (2 FAILED)[39m (0 secs / 0.504 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 94 of 136[31m (2 FAILED)[39m (0 secs / 0.506 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 95 of 136[31m (2 FAILED)[39m (0 secs / 0.512 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 96 of 136[31m (2 FAILED)[39m (0 secs / 0.516 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 97 of 136[31m (2 FAILED)[39m (0 secs / 0.518 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 98 of 136[31m (2 FAILED)[39m (0 secs / 0.519 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 99 of 136[31m (2 FAILED)[39m (0 secs / 0.521 secs)
+[1A[2K[31mChrome Headless 155.0.0.0 (Windows 10) Categorias (pagina) con una categoria inexistente muestra un mensaje FAILED[39m
+	TestingLibraryElementError: Unable to find an element with the text: No hay consolas en esta categoria.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+	
+	Ignored nodes: comments, script, style
+	<body>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  <link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  />
+	  
+	
+	  
+	
+	  <div
+	    class="jasmine_html-reporter"
+	  >
+	    <div
+	      class="jasmine-banner"
+	    >
+	      <a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      />
+	      <span
+	        class="jasmine-version"
+	      >
+	        7.0.2
+	      </span>
+	    </div>
+	    <progress
+	      class="failed"
+	      max="136"
+	      value="99"
+	    />
+	    <div
+	      class="jasmine-alert"
+	    >
+	      <span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      >
+	        Failing...
+	      </span>
+	      <span
+	        class="jasmine-menu jasmine-bar"
+	      >
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Spec List
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Failures
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Performance
+	          </a>
+	        </span>
+	      </span>
+	    </div>
+	    <div
+	      class="jasmine-results"
+	    >
+	      <div
+	        class="jasmine-failures"
+	      >
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	            >
+	              Home (página)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	              title="muestra la bienvenida y solo las 3 primeras consolas"
+	            >
+	              muestra la bienvenida y solo las 3 primeras consolas
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              Expected 8 to be 3.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	            >
+	              Navbar y Footer (organismos)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	              title="el boton del carrito muestra el total de los productos guardados"
+	            >
+	              el boton del carrito muestra el total de los productos guardados
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	
+	
+	  <div>
+	    <section
+	      id="content"
+	    >
+	      <div
+	        class="section-container"
+	      >
+	        <h2
+	          class="section-title"
+	        >
+	          Categorías
+	        </h2>
+	        <div
+	          class="contenedor categorias-lista"
+	        >
+	          <a
+	            class="categoria-chip "
+	            data-discover="true"
+	            href="/categorias/Sony"
+	          >
+	            Sony
+	          </a>
+	          <a
+	            class="categoria-chip "
+	            data-discover="true"
+	            href="/categorias/Microsoft"
+	          >
+	            Microsoft
+	          </a>
+	          <a
+	            class="categoria-chip "
+	            data-discover="true"
+	            href="/categorias/Nintendo"
+	          >
+	            Nintendo
+	          </a>
+	        </div>
+	        <h3
+	          class="section-title"
+	        >
+	          Atari
+	        </h3>
+	        <p
+	          class="section-title"
+	        >
+	          No hay consolas en esta categoría.
+	        </p>
+	      </div>
+	    </section>
+	  </div>
+	</body>
+	    at Object.getElementError (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:435:19)
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1294:25
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1273:17
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1316:19
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:13045:71)
+	    at <Jasmine>
+Chrome Headless 155.0.0.0 (Windows 10): Executed 100 of 136[31m (3 FAILED)[39m (0 secs / 0.527 secs)
+Chrome Headless 155.0.0.0 (Windows 10) Categorias (pagina) con una categoria inexistente muestra un mensaje FAILED
+	TestingLibraryElementError: Unable to find an element with the text: No hay consolas en esta categoria.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+	
+	Ignored nodes: comments, script, style
+	<body>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  <link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  />
+	  
+	
+	  
+	
+	  <div
+	    class="jasmine_html-reporter"
+	  >
+	    <div
+	      class="jasmine-banner"
+	    >
+	      <a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      />
+	      <span
+	        class="jasmine-version"
+	      >
+	        7.0.2
+	      </span>
+	    </div>
+	    <progress
+	      class="failed"
+	      max="136"
+	      value="99"
+	    />
+	    <div
+	      class="jasmine-alert"
+	    >
+	      <span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      >
+	        Failing...
+	      </span>
+	      <span
+	        class="jasmine-menu jasmine-bar"
+	      >
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Spec List
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Failures
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Performance
+	          </a>
+	        </span>
+	      </span>
+	    </div>
+	    <div
+	      class="jasmine-results"
+	    >
+	      <div
+	        class="jasmine-failures"
+	      >
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	            >
+	              Home (página)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	              title="muestra la bienvenida y solo las 3 primeras consolas"
+	            >
+	              muestra la bienvenida y solo las 3 primeras consolas
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              Expected 8 to be 3.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	            >
+	              Navbar y Footer (organismos)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	              title="el boton del carrito muestra el total de los productos guardados"
+	            >
+	              el boton del carrito muestra el total de los productos guardados
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	
+	
+	  <div>
+	    <section
+	      id="content"
+	    >
+	      <div
+	        class="section-container"
+	      >
+	        <h2
+	          class="section-title"
+	        >
+	          Categorías
+	        </h2>
+	        <div
+	          class="contenedor categorias-lista"
+	        >
+	          <a
+	            class="categoria-chip "
+	            data-discover="true"
+	            href="/categorias/Sony"
+	          >
+	            Sony
+	          </a>
+	          <a
+	            class="categoria-chip "
+	            data-discover="true"
+	            href="/categorias/Microsoft"
+	          >
+	            Microsoft
+	          </a>
+	          <a
+	            class="categoria-chip "
+	            data-discover="true"
+	            href="/categorias/Nintendo"
+	          >
+	            Nintendo
+	          </a>
+	        </div>
+	        <h3
+	          class="section-title"
+	        >
+	          Atari
+	        </h3>
+	        <p
+	          class="section-title"
+	        >
+	          No hay consolas en esta categoría.
+	        </p>
+	      </div>
+	    </section>
+	  </div>
+	</body>
+	    at Object.getElementError (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:435:19)
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1294:25
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1273:17
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1316:19
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:13045:71)
+	    at <Jasmine>
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 101 of 136[31m (3 FAILED)[39m (0 secs / 0.532 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 102 of 136[31m (3 FAILED)[39m (0 secs / 0.537 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 103 of 136[31m (3 FAILED)[39m (0 secs / 0.541 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 104 of 136[31m (3 FAILED)[39m (0 secs / 0.543 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 105 of 136[31m (3 FAILED)[39m (0 secs / 0.546 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 106 of 136[31m (3 FAILED)[39m (0 secs / 0.547 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 107 of 136[31m (3 FAILED)[39m (0 secs / 0.554 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 108 of 136[31m (3 FAILED)[39m (0 secs / 0.563 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 109 of 136[31m (3 FAILED)[39m (0 secs / 0.569 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 110 of 136[31m (3 FAILED)[39m (0 secs / 0.571 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 111 of 136[31m (3 FAILED)[39m (0 secs / 0.576 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 112 of 136[31m (3 FAILED)[39m (0 secs / 0.582 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 113 of 136[31m (3 FAILED)[39m (0 secs / 0.585 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 114 of 136[31m (3 FAILED)[39m (0 secs / 0.586 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 115 of 136[31m (3 FAILED)[39m (0 secs / 0.588 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 116 of 136[31m (3 FAILED)[39m (0 secs / 0.59 secs)
+[1A[2K[31mChrome Headless 155.0.0.0 (Windows 10) DetalleProducto (página) "Añadir al carrito" guarda el producto y avisa al usuario FAILED[39m
+	TestingLibraryElementError: Unable to find an accessible element with the role "status"
+	
+	Here are the accessible roles:
+	
+	  link:
+	
+	  Name "":
+	  <a
+	    class="jasmine-title"
+	    href="http://jasmine.github.io/"
+	    target="_blank"
+	  />
+	
+	  Name "Home (página)":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	  />
+	
+	  Name "muestra la bienvenida y solo las 3 primeras consolas":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	    title="muestra la bienvenida y solo las 3 primeras consolas"
+	  />
+	
+	  Name "Navbar y Footer (organismos)":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	  />
+	
+	  Name "el boton del carrito muestra el total de los productos guardados":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	    title="el boton del carrito muestra el total de los productos guardados"
+	  />
+	
+	  Name "Categorias (pagina)":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	  />
+	
+	  Name "con una categoria inexistente muestra un mensaje":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	    title="con una categoria inexistente muestra un mensaje"
+	  />
+	
+	  --------------------------------------------------
+	  progressbar:
+	
+	  Name "":
+	  <progress
+	    class="failed"
+	    max="136"
+	    value="116"
+	  />
+	
+	  --------------------------------------------------img:
+	
+	  Name "Playstation 4":
+	  <img
+	    alt="Playstation 4"
+	    class="img-obj"
+	    src="data:image/webp;base64,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"
+	  />
+	
+	  --------------------------------------------------
+	  heading:
+	
+	  Name "Playstation 4":
+	  <h2 />
+	
+	  --------------------------------------------------
+	  paragraph:
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p
+	    class="precio"
+	  />
+	
+	  Name "":
+	  <p
+	    class="exito-texto mt-3"
+	  />
+	
+	  --------------------------------------------------
+	  button:
+	
+	  Name "Añadir al carrito":
+	  <button
+	    class="btn-red"
+	    type="button"
+	  />
+	
+	  Name "Volver":
+	  <button
+	    class="btn-outline"
+	    type="button"
+	  />
+	
+	  --------------------------------------------------
+	
+	Ignored nodes: comments, script, style
+	<body>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  <link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  />
+	  
+	
+	  
+	
+	  <div
+	    class="jasmine_html-reporter"
+	  >
+	    <div
+	      class="jasmine-banner"
+	    >
+	      <a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      />
+	      <span
+	        class="jasmine-version"
+	      >
+	        7.0.2
+	      </span>
+	    </div>
+	    <progress
+	      class="failed"
+	      max="136"
+	      value="116"
+	    />
+	    <div
+	      class="jasmine-alert"
+	    >
+	      <span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      >
+	        Failing...
+	      </span>
+	      <span
+	        class="jasmine-menu jasmine-bar"
+	      >
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Spec List
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Failures
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Performance
+	          </a>
+	        </span>
+	      </span>
+	    </div>
+	    <div
+	      class="jasmine-results"
+	    >
+	      <div
+	        class="jasmine-failures"
+	      >
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	            >
+	              Home (página)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	              title="muestra la bienvenida y solo las 3 primeras consolas"
+	            >
+	              muestra la bienvenida y solo las 3 primeras consolas
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              Expected 8 to be 3.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	            >
+	              Navbar y Footer (organismos)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	              title="el boton del carrito muestra el total de los productos guardados"
+	            >
+	              el boton del carrito muestra el total de los productos guardados
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	            >
+	              Categorias (pagina)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	              title="con una categoria inexistente muestra un mensaje"
+	            >
+	              con una categoria inexistente muestra un mensaje
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              TestingLibraryElementError: Unable to find an element with the text: No hay consolas en esta categoria.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+	
+	Ignored nodes: comments, script, style
+	&lt;body&gt;
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  &lt;link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  /&gt;
+	  
+	
+	  
+	
+	  &lt;div
+	    class="jasmine_html-reporter"
+	  &gt;
+	    &lt;div
+	      class="jasmine-banner"
+	    &gt;
+	      &lt;a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      /&gt;
+	      &lt;span
+	        class="jasmine-version"
+	      &gt;
+	        7.0.2
+	      &lt;/span&gt;
+	    &lt;/div&gt;
+	    &lt;progress
+	      class="failed"
+	      max="136"
+	      value="99"
+	    /&gt;
+	    &lt;div
+	      class="jasmine-alert"
+	    &gt;
+	      &lt;span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      &gt;
+	        Failing...
+	      &lt;/span&gt;
+	      &lt;span
+	        class="jasmine-menu jasmine-bar"
+	      &gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Spec List
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Failures
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Performance
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	      &lt;/span&gt;
+	    &lt;/div&...
+	    at Object.getElementError (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:435:19)
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1294:25
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1273:17
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1316:19
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14829:71)
+	    at <Jasmine>
+Chrome Headless 155.0.0.0 (Windows 10): Executed 117 of 136[31m (4 FAILED)[39m (0 secs / 0.599 secs)
+Chrome Headless 155.0.0.0 (Windows 10) DetalleProducto (página) "Añadir al carrito" guarda el producto y avisa al usuario FAILED
+	TestingLibraryElementError: Unable to find an accessible element with the role "status"
+	
+	Here are the accessible roles:
+	
+	  link:
+	
+	  Name "":
+	  <a
+	    class="jasmine-title"
+	    href="http://jasmine.github.io/"
+	    target="_blank"
+	  />
+	
+	  Name "Home (página)":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	  />
+	
+	  Name "muestra la bienvenida y solo las 3 primeras consolas":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	    title="muestra la bienvenida y solo las 3 primeras consolas"
+	  />
+	
+	  Name "Navbar y Footer (organismos)":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	  />
+	
+	  Name "el boton del carrito muestra el total de los productos guardados":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	    title="el boton del carrito muestra el total de los productos guardados"
+	  />
+	
+	  Name "Categorias (pagina)":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	  />
+	
+	  Name "con una categoria inexistente muestra un mensaje":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	    title="con una categoria inexistente muestra un mensaje"
+	  />
+	
+	  --------------------------------------------------
+	  progressbar:
+	
+	  Name "":
+	  <progress
+	    class="failed"
+	    max="136"
+	    value="116"
+	  />
+	
+	  --------------------------------------------------img:
+	
+	  Name "Playstation 4":
+	  <img
+	    alt="Playstation 4"
+	    class="img-obj"
+	    src="data:image/webp;base64,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"
+	  />
+	
+	  --------------------------------------------------
+	  heading:
+	
+	  Name "Playstation 4":
+	  <h2 />
+	
+	  --------------------------------------------------
+	  paragraph:
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p
+	    class="precio"
+	  />
+	
+	  Name "":
+	  <p
+	    class="exito-texto mt-3"
+	  />
+	
+	  --------------------------------------------------
+	  button:
+	
+	  Name "Añadir al carrito":
+	  <button
+	    class="btn-red"
+	    type="button"
+	  />
+	
+	  Name "Volver":
+	  <button
+	    class="btn-outline"
+	    type="button"
+	  />
+	
+	  --------------------------------------------------
+	
+	Ignored nodes: comments, script, style
+	<body>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  <link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  />
+	  
+	
+	  
+	
+	  <div
+	    class="jasmine_html-reporter"
+	  >
+	    <div
+	      class="jasmine-banner"
+	    >
+	      <a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      />
+	      <span
+	        class="jasmine-version"
+	      >
+	        7.0.2
+	      </span>
+	    </div>
+	    <progress
+	      class="failed"
+	      max="136"
+	      value="116"
+	    />
+	    <div
+	      class="jasmine-alert"
+	    >
+	      <span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      >
+	        Failing...
+	      </span>
+	      <span
+	        class="jasmine-menu jasmine-bar"
+	      >
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Spec List
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Failures
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Performance
+	          </a>
+	        </span>
+	      </span>
+	    </div>
+	    <div
+	      class="jasmine-results"
+	    >
+	      <div
+	        class="jasmine-failures"
+	      >
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	            >
+	              Home (página)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	              title="muestra la bienvenida y solo las 3 primeras consolas"
+	            >
+	              muestra la bienvenida y solo las 3 primeras consolas
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              Expected 8 to be 3.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	            >
+	              Navbar y Footer (organismos)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	              title="el boton del carrito muestra el total de los productos guardados"
+	            >
+	              el boton del carrito muestra el total de los productos guardados
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	            >
+	              Categorias (pagina)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	              title="con una categoria inexistente muestra un mensaje"
+	            >
+	              con una categoria inexistente muestra un mensaje
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              TestingLibraryElementError: Unable to find an element with the text: No hay consolas en esta categoria.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+	
+	Ignored nodes: comments, script, style
+	&lt;body&gt;
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  &lt;link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  /&gt;
+	  
+	
+	  
+	
+	  &lt;div
+	    class="jasmine_html-reporter"
+	  &gt;
+	    &lt;div
+	      class="jasmine-banner"
+	    &gt;
+	      &lt;a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      /&gt;
+	      &lt;span
+	        class="jasmine-version"
+	      &gt;
+	        7.0.2
+	      &lt;/span&gt;
+	    &lt;/div&gt;
+	    &lt;progress
+	      class="failed"
+	      max="136"
+	      value="99"
+	    /&gt;
+	    &lt;div
+	      class="jasmine-alert"
+	    &gt;
+	      &lt;span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      &gt;
+	        Failing...
+	      &lt;/span&gt;
+	      &lt;span
+	        class="jasmine-menu jasmine-bar"
+	      &gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Spec List
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Failures
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Performance
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	      &lt;/span&gt;
+	    &lt;/div&...
+	    at Object.getElementError (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:435:19)
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1294:25
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1273:17
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1316:19
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14829:71)
+	    at <Jasmine>
+[1A[2K[31mChrome Headless 155.0.0.0 (Windows 10) DetalleProducto (página) avisa cuando ya no quedan unidades para agregar FAILED[39m
+	TestingLibraryElementError: Unable to find an accessible element with the role "status"
+	
+	Here are the accessible roles:
+	
+	  link:
+	
+	  Name "":
+	  <a
+	    class="jasmine-title"
+	    href="http://jasmine.github.io/"
+	    target="_blank"
+	  />
+	
+	  Name "Home (página)":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	  />
+	
+	  Name "muestra la bienvenida y solo las 3 primeras consolas":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	    title="muestra la bienvenida y solo las 3 primeras consolas"
+	  />
+	
+	  Name "Navbar y Footer (organismos)":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	  />
+	
+	  Name "el boton del carrito muestra el total de los productos guardados":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	    title="el boton del carrito muestra el total de los productos guardados"
+	  />
+	
+	  Name "Categorias (pagina)":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	  />
+	
+	  Name "con una categoria inexistente muestra un mensaje":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	    title="con una categoria inexistente muestra un mensaje"
+	  />
+	
+	  Name "DetalleProducto (página)":
+	  <a
+	    href="/context.html?path=%5B%22DetalleProducto%20(p%C3%A1gina)%22%5D"
+	  />
+	
+	  Name ""Añadir al carrito" guarda el producto y avisa al usuario":
+	  <a
+	    href="/context.html?path=%5B%22DetalleProducto%20(p%C3%A1gina)%22%2C%22%5C%22A%C3%B1adir%20al%20carrito%5C%22%20guarda%20el%20producto%20y%20avisa%20al%20usuario%22%5D"
+	    title="\"Añadir al carrito\" guarda el producto y avisa al usuario"
+	  />
+	
+	  --------------------------------------------------
+	  progressbar:
+	
+	  Name "":
+	  <progress
+	    class="failed"
+	    max="136"
+	    value="117"
+	  />
+	
+	  --------------------------------------------------img:
+	
+	  Name "Playstation 4":
+	  <img
+	    alt="Playstation 4"
+	    class="img-obj"
+	    src="data:image/webp;base64,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"
+	  />
+	
+	  --------------------------------------------------
+	  heading:
+	
+	  Name "Playstation 4":
+	  <h2 />
+	
+	  --------------------------------------------------
+	  paragraph:
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p
+	    class="precio"
+	  />
+	
+	  Name "":
+	  <p
+	    class="exito-texto mt-3"
+	  />
+	
+	  --------------------------------------------------
+	  button:
+	
+	  Name "Añadir al carrito":
+	  <button
+	    class="btn-red"
+	    type="button"
+	  />
+	
+	  Name "Volver":
+	  <button
+	    class="btn-outline"
+	    type="button"
+	  />
+	
+	  --------------------------------------------------
+	
+	Ignored nodes: comments, script, style
+	<body>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  <link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  />
+	  
+	
+	  
+	
+	  <div
+	    class="jasmine_html-reporter"
+	  >
+	    <div
+	      class="jasmine-banner"
+	    >
+	      <a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      />
+	      <span
+	        class="jasmine-version"
+	      >
+	        7.0.2
+	      </span>
+	    </div>
+	    <progress
+	      class="failed"
+	      max="136"
+	      value="117"
+	    />
+	    <div
+	      class="jasmine-alert"
+	    >
+	      <span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      >
+	        Failing...
+	      </span>
+	      <span
+	        class="jasmine-menu jasmine-bar"
+	      >
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Spec List
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Failures
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Performance
+	          </a>
+	        </span>
+	      </span>
+	    </div>
+	    <div
+	      class="jasmine-results"
+	    >
+	      <div
+	        class="jasmine-failures"
+	      >
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	            >
+	              Home (página)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	              title="muestra la bienvenida y solo las 3 primeras consolas"
+	            >
+	              muestra la bienvenida y solo las 3 primeras consolas
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              Expected 8 to be 3.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	            >
+	              Navbar y Footer (organismos)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	              title="el boton del carrito muestra el total de los productos guardados"
+	            >
+	              el boton del carrito muestra el total de los productos guardados
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	            >
+	              Categorias (pagina)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	              title="con una categoria inexistente muestra un mensaje"
+	            >
+	              con una categoria inexistente muestra un mensaje
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              TestingLibraryElementError: Unable to find an element with the text: No hay consolas en esta categoria.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+	
+	Ignored nodes: comments, script, style
+	&lt;body&gt;
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  &lt;link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  /&gt;
+	  
+	
+	  
+	
+	  &lt;div
+	    class="jasmine_html-reporter"
+	  &gt;
+	    &lt;div
+	      class="jasmine-banner"
+	    &gt;
+	      &lt;a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      /&gt;
+	      &lt;span
+	        class="jasmine-version"
+	      &gt;
+	        7.0.2
+	      &lt;/span&gt;
+	    &lt;/div&gt;
+	    &lt;progress
+	      class="failed"
+	      max="136"
+	      value="99"
+	    /&gt;
+	    &lt;div
+	      class="jasmine-alert"
+	    &gt;
+	      &lt;span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      &gt;
+	        Failing...
+	      &lt;/span&gt;
+	      &lt;span
+	        class="jasmine-menu jasmine-bar"
+	      &gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Spec List
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Failures
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Performance
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	      &lt;/span&gt;
+	    &lt;/div&...
+	    at Object.getElementError (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:435:19)
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1294:25
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1273:17
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1316:19
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14845:71)
+	    at <Jasmine>
+Chrome Headless 155.0.0.0 (Windows 10): Executed 118 of 136[31m (5 FAILED)[39m (0 secs / 0.61 secs)
+Chrome Headless 155.0.0.0 (Windows 10) DetalleProducto (página) avisa cuando ya no quedan unidades para agregar FAILED
+	TestingLibraryElementError: Unable to find an accessible element with the role "status"
+	
+	Here are the accessible roles:
+	
+	  link:
+	
+	  Name "":
+	  <a
+	    class="jasmine-title"
+	    href="http://jasmine.github.io/"
+	    target="_blank"
+	  />
+	
+	  Name "Home (página)":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	  />
+	
+	  Name "muestra la bienvenida y solo las 3 primeras consolas":
+	  <a
+	    href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	    title="muestra la bienvenida y solo las 3 primeras consolas"
+	  />
+	
+	  Name "Navbar y Footer (organismos)":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	  />
+	
+	  Name "el boton del carrito muestra el total de los productos guardados":
+	  <a
+	    href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	    title="el boton del carrito muestra el total de los productos guardados"
+	  />
+	
+	  Name "Categorias (pagina)":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	  />
+	
+	  Name "con una categoria inexistente muestra un mensaje":
+	  <a
+	    href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	    title="con una categoria inexistente muestra un mensaje"
+	  />
+	
+	  Name "DetalleProducto (página)":
+	  <a
+	    href="/context.html?path=%5B%22DetalleProducto%20(p%C3%A1gina)%22%5D"
+	  />
+	
+	  Name ""Añadir al carrito" guarda el producto y avisa al usuario":
+	  <a
+	    href="/context.html?path=%5B%22DetalleProducto%20(p%C3%A1gina)%22%2C%22%5C%22A%C3%B1adir%20al%20carrito%5C%22%20guarda%20el%20producto%20y%20avisa%20al%20usuario%22%5D"
+	    title="\"Añadir al carrito\" guarda el producto y avisa al usuario"
+	  />
+	
+	  --------------------------------------------------
+	  progressbar:
+	
+	  Name "":
+	  <progress
+	    class="failed"
+	    max="136"
+	    value="117"
+	  />
+	
+	  --------------------------------------------------img:
+	
+	  Name "Playstation 4":
+	  <img
+	    alt="Playstation 4"
+	    class="img-obj"
+	    src="data:image/webp;base64,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"
+	  />
+	
+	  --------------------------------------------------
+	  heading:
+	
+	  Name "Playstation 4":
+	  <h2 />
+	
+	  --------------------------------------------------
+	  paragraph:
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p />
+	
+	  Name "":
+	  <p
+	    class="precio"
+	  />
+	
+	  Name "":
+	  <p
+	    class="exito-texto mt-3"
+	  />
+	
+	  --------------------------------------------------
+	  button:
+	
+	  Name "Añadir al carrito":
+	  <button
+	    class="btn-red"
+	    type="button"
+	  />
+	
+	  Name "Volver":
+	  <button
+	    class="btn-outline"
+	    type="button"
+	  />
+	
+	  --------------------------------------------------
+	
+	Ignored nodes: comments, script, style
+	<body>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  <link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  />
+	  
+	
+	  
+	
+	  <div
+	    class="jasmine_html-reporter"
+	  >
+	    <div
+	      class="jasmine-banner"
+	    >
+	      <a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      />
+	      <span
+	        class="jasmine-version"
+	      >
+	        7.0.2
+	      </span>
+	    </div>
+	    <progress
+	      class="failed"
+	      max="136"
+	      value="117"
+	    />
+	    <div
+	      class="jasmine-alert"
+	    >
+	      <span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      >
+	        Failing...
+	      </span>
+	      <span
+	        class="jasmine-menu jasmine-bar"
+	      >
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Spec List
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Failures
+	          </a>
+	        </span>
+	        <span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        >
+	          <a
+	            href="#"
+	          >
+	            Performance
+	          </a>
+	        </span>
+	      </span>
+	    </div>
+	    <div
+	      class="jasmine-results"
+	    >
+	      <div
+	        class="jasmine-failures"
+	      >
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%5D"
+	            >
+	              Home (página)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Home%20(p%C3%A1gina)%22%2C%22muestra%20la%20bienvenida%20y%20solo%20las%203%20primeras%20consolas%22%5D"
+	              title="muestra la bienvenida y solo las 3 primeras consolas"
+	            >
+	              muestra la bienvenida y solo las 3 primeras consolas
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              Expected 8 to be 3.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14874:58)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%5D"
+	            >
+	              Navbar y Footer (organismos)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Navbar%20y%20Footer%20(organismos)%22%2C%22el%20boton%20del%20carrito%20muestra%20el%20total%20de%20los%20productos%20guardados%22%5D"
+	              title="el boton del carrito muestra el total de los productos guardados"
+	            >
+	              el boton del carrito muestra el total de los productos guardados
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              FAILED Expected '🛒 Carrito $0' to match '/\$374\.?986/'.
+	            </div>
+	            <div
+	              class="jasmine-stack-trace"
+	            >
+	                  at &lt;Jasmine&gt;
+	    at UserContext.&lt;anonymous&gt; (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14100:9)
+	    at &lt;Jasmine&gt;
+	            </div>
+	          </div>
+	        </div>
+	        <div
+	          class="jasmine-spec-detail jasmine-failed"
+	        >
+	          <div
+	            class="jasmine-description"
+	          >
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%5D"
+	            >
+	              Categorias (pagina)
+	            </a>
+	             &gt; 
+	            <a
+	              href="/context.html?path=%5B%22Categorias%20(pagina)%22%2C%22con%20una%20categoria%20inexistente%20muestra%20un%20mensaje%22%5D"
+	              title="con una categoria inexistente muestra un mensaje"
+	            >
+	              con una categoria inexistente muestra un mensaje
+	            </a>
+	          </div>
+	          <div
+	            class="jasmine-messages"
+	          >
+	            <div
+	              class="jasmine-result-message"
+	            >
+	              TestingLibraryElementError: Unable to find an element with the text: No hay consolas en esta categoria.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+	
+	Ignored nodes: comments, script, style
+	&lt;body&gt;
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	
+	  
+	
+	  
+	
+	  &lt;link
+	    crossorigin="anonymous"
+	    href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+	    rel="stylesheet"
+	    type="text/css"
+	  /&gt;
+	  
+	
+	  
+	
+	  &lt;div
+	    class="jasmine_html-reporter"
+	  &gt;
+	    &lt;div
+	      class="jasmine-banner"
+	    &gt;
+	      &lt;a
+	        class="jasmine-title"
+	        href="http://jasmine.github.io/"
+	        target="_blank"
+	      /&gt;
+	      &lt;span
+	        class="jasmine-version"
+	      &gt;
+	        7.0.2
+	      &lt;/span&gt;
+	    &lt;/div&gt;
+	    &lt;progress
+	      class="failed"
+	      max="136"
+	      value="99"
+	    /&gt;
+	    &lt;div
+	      class="jasmine-alert"
+	    &gt;
+	      &lt;span
+	        aria-live="polite"
+	        class="jasmine-overall-result jasmine-bar jasmine-in-progress jasmine-failed"
+	      &gt;
+	        Failing...
+	      &lt;/span&gt;
+	      &lt;span
+	        class="jasmine-menu jasmine-bar"
+	      &gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-specListTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Spec List
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-failuresTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Failures
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	        &lt;span
+	          class="jasmine-tab jasmine-hidden"
+	          id="jasmine-perfTab"
+	        &gt;
+	          &lt;a
+	            href="#"
+	          &gt;
+	            Performance
+	          &lt;/a&gt;
+	        &lt;/span&gt;
+	      &lt;/span&gt;
+	    &lt;/div&...
+	    at Object.getElementError (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:435:19)
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1294:25
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1273:17
+	    at C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:1316:19
+	    at UserContext.<anonymous> (C:/Users/dario/AppData/Local/Temp/_karma_webpack_677935/commons.js:14845:71)
+	    at <Jasmine>
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 119 of 136[31m (5 FAILED)[39m (0 secs / 0.614 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 120 of 136[31m (5 FAILED)[39m (0 secs / 0.62 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 121 of 136[31m (5 FAILED)[39m (0 secs / 0.622 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 122 of 136[31m (5 FAILED)[39m (0 secs / 0.623 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 123 of 136[31m (5 FAILED)[39m (0 secs / 0.625 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 124 of 136[31m (5 FAILED)[39m (0 secs / 0.627 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 125 of 136[31m (5 FAILED)[39m (0 secs / 0.633 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 126 of 136[31m (5 FAILED)[39m (0 secs / 0.635 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 127 of 136[31m (5 FAILED)[39m (0 secs / 0.64 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 128 of 136[31m (5 FAILED)[39m (0 secs / 0.641 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 129 of 136[31m (5 FAILED)[39m (0 secs / 0.644 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 130 of 136[31m (5 FAILED)[39m (0 secs / 0.649 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 131 of 136[31m (5 FAILED)[39m (0 secs / 0.654 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 132 of 136[31m (5 FAILED)[39m (0 secs / 0.657 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 133 of 136[31m (5 FAILED)[39m (0 secs / 0.659 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 134 of 136[31m (5 FAILED)[39m (0 secs / 0.668 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 135 of 136[31m (5 FAILED)[39m (0 secs / 0.675 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 136 of 136[31m (5 FAILED)[39m (0 secs / 0.685 secs)
+[1A[2KChrome Headless 155.0.0.0 (Windows 10): Executed 136 of 136[31m (5 FAILED)[39m (0.82 secs / 0.685 secs)
+[31mTOTAL: 5 FAILED, 131 SUCCESS[39m
+TOTAL: 5 FAILED, 131 SUCCESS
+
+=============================== Coverage summary ===============================
+Statements   : 66.75% ( 486/728 )
+Branches     : 58.24% ( 219/376 )
+Functions    : 63.7% ( 165/259 )
+Lines        : 67.14% ( 425/633 )
+================================================================================
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   66.75 |    58.24 |    63.7 |   67.14 |                   
+ src               |   66.66 |      100 |      50 |   66.66 |                   
+  App.jsx          |   66.66 |      100 |      50 |   66.66 | 45                
+ ...mponents/atoms |     100 |      100 |     100 |     100 |                   
+  Button.jsx       |     100 |      100 |     100 |     100 |                   
+  EstadoPedido.jsx |     100 |      100 |     100 |     100 |                   
+  Input.jsx        |     100 |      100 |     100 |     100 |                   
+  Precio.jsx       |     100 |      100 |     100 |     100 |                   
+ ...ents/molecules |     100 |      100 |     100 |     100 |                   
+  ...ormulario.jsx |     100 |      100 |     100 |     100 |                   
+  CampoSelect.jsx  |     100 |      100 |     100 |     100 |                   
+  CardConsola.jsx  |     100 |      100 |     100 |     100 |                   
+  ...lCantidad.jsx |     100 |      100 |     100 |     100 |                   
+ ...ents/organisms |   89.15 |       95 |   85.29 |    88.6 |                   
+  AdminLayout.jsx  |      75 |      100 |      50 |      75 | 14-15             
+  AuthContext.jsx  |   96.29 |      100 |     100 |      96 | 19                
+  CartContext.jsx  |     100 |      100 |     100 |     100 |                   
+  Header.jsx       |    62.5 |       75 |   42.85 |    62.5 | 19-21,35-45,56    
+  Navbar.jsx       |     100 |      100 |     100 |     100 |                   
+  ...menPedido.jsx |     100 |      100 |     100 |     100 |                   
+  TablaCarrito.jsx |     100 |      100 |     100 |     100 |                   
+  ...Productos.jsx |     100 |      100 |     100 |     100 |                   
+ src/data          |   80.55 |    69.87 |   79.72 |   81.37 |                   
+  Blogs.js         |     100 |      100 |     100 |     100 |                   
+  carrito.js       |     100 |    90.47 |     100 |     100 | 34-42             
+  categorias.js    |   26.66 |    16.66 |   16.66 |      32 | 20-48             
+  consolas.js      |     100 |    91.66 |     100 |     100 | 112               
+  pedidos.js       |   97.72 |    83.33 |     100 |   97.14 | 27                
+  regiones.js      |     100 |      100 |     100 |     100 |                   
+  usuarios.js      |    64.7 |       55 |   61.53 |   67.85 | 56-69             
+ src/pages         |   55.82 |     47.6 |   46.71 |   56.26 |                   
+  AdminBoleta.jsx  |       0 |        0 |       0 |       0 | 8-65              
+  ...ategorias.jsx |       0 |        0 |       0 |       0 | 13-77             
+  ...Dashboard.jsx |    7.69 |        0 |       0 |   11.11 | 9-53              
+  AdminOrdenes.jsx |       0 |        0 |       0 |       0 | 8-46              
+  ...ductoForm.jsx |    2.38 |        0 |       0 |     2.7 | 24-136            
+  ...Productos.jsx |   11.11 |        0 |       0 |   11.11 | 14-59             
+  ...nReportes.jsx |      95 |      100 |      90 |   93.75 | 26                
+  ...Historial.jsx |       0 |        0 |       0 |       0 | 8-45              
+  ...nUsuarios.jsx |       0 |        0 |       0 |       0 | 8-52              
+  ...ariosForm.jsx |    2.27 |        0 |       0 |    2.77 | 10-105            
+  Blogs.jsx        |     100 |      100 |     100 |     100 |                   
+  Carrito.jsx      |     100 |      100 |     100 |     100 |                   
+  Categorias.jsx   |   78.57 |       80 |   71.42 |   76.92 | 51-54             
+  Checkout.jsx     |     100 |      100 |     100 |     100 |                   
+  ...raExitosa.jsx |     100 |      100 |     100 |     100 |                   
+  ...raFallida.jsx |     100 |      100 |     100 |     100 |                   
+  Contacto.jsx     |     100 |      100 |     100 |     100 |                   
+  DetalleBlog.jsx  |   77.77 |      100 |      50 |      75 | 15,29             
+  ...eProducto.jsx |   86.66 |    91.66 |      60 |   85.71 | 20,67             
+  Home.jsx         |    62.5 |        0 |      50 |    62.5 | 37-40             
+  Login.jsx        |     100 |      100 |     100 |     100 |                   
+  Nosotros.jsx     |     100 |      100 |     100 |     100 |                   
+  Ofertas.jsx      |   84.61 |       75 |   77.77 |   84.61 | 9,57              
+  Productos.jsx    |   54.54 |       50 |   46.15 |   64.28 | ...7,52,67-89,122 
+  Register.jsx     |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
