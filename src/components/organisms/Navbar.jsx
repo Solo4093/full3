@@ -31,7 +31,7 @@ export function Footer() {
     <footer id="footer">
       <p>&copy; {new Date().getFullYear()} Nexus Gaming - Todos los derechos reservados</p>
       <a
-          href="https://github.com/Solo4093/full2.git"
+          href="https://github.com/Solo4093/full2"
           target="_blank"
           rel="noopener noreferrer"
         >
